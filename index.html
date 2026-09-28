@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porifólio</title>
+
+    <style>
+
+        body {
+                background-color:rgb(200, 200, 238);
+            } 
+        table {
+            border-collapse: collapse; 
+            width: 100%;
+        }
+        
+        th, td {
+            border: 1px solid #333;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            font-weight: bold;
+        }
+
+        a {
+            color: rgb(105, 105, 255);
+        }
+
+        h1 {
+            color: blue;
+        }
+
+        h2 {
+            color: rgb(110, 110, 225);
+        }
+
+        h3 {}
+        
+    </style>
+</head>
+<body>
+    <header>
+    <h1>Riquelme Reis - Desenvolvedor Web</h1>
+    
+    <nav>
+    <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+    </ul>
+    </nav>
+    </header>
+    <hr>
+
+    <main>
+        <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <img src="9786AE82-E789-42A8-80F4-C303872AF4A4_9330BBBE-876B-4DE0-90B2-29D9678D5854.jpeg" alt="Foto Riquelme Reis" width="300" height="340">
+        <p>Sou estudande de <strong> Técnico em Desenvolvimento de Sistemas</strong> no SENAI SP. </p>
+        <p>Com este curso técnico estou criando experiencia em <em>HTML, CSS, Banco de Dados, PHP e Gerenciamento de Projetos</em></p>
+        
+        <h3>Minhas Habilidades:</h3>
+        <ul>
+            <li>HTML5 Semântico</li>
+            <li>CSS3 e Responsividade</li>
+            <li>Formulários e Validação</li>
+            <li>Estruturação de Dados</li>
+        </ul>
+        </section>
+        <hr>
+
+        <section id="projetos">
+            <h2>Meus Projetos</h2>
+
+            <table style="width: 50%;" border="1">
+                <thead>
+                    <tr>
+                        <th>Projeto</th>
+                        <th>Tecnologia</th>
+                        <th>Status</th>
+                        <th>Link</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Página de Filme</td>
+                        <td>HTML e CSS</td>
+                        <td>Concluído</td>
+                        <td><a href="https://github.com/riquelmereis/atividade_filmes" target="_blank">Ver Projeto</a></td>
+                    </tr>
+                    <tr>
+                        <td>Verificador de Idade</td>
+                        <td>PHP</td>
+                        <td>Concluído</td>
+                        <td><a href="https://github.com/riquelmereis/verificador_de_idade" target="_blank">Ver Projeto</a></td>
+                    </tr>
+                    <tr>
+                        <td>Tipografia e Cores</td>
+                        <td>Figma</td>
+                        <td>Concluído</td>
+                        <td><a href="https://github.com/riquelmereis/GuiaTipografiaECores" target="_blank">Ver Projeto</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <hr>
+
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+
+            <form>
+                <fieldset>
+            <!-- A tag legend coloca o título em cima da linha -->
+            <legend>Dados do Contato</legend>
+
+            <div>
+                <label for="nome">Nome:</label> <br>
+                <input type="text" id="nome" name="nome">
+            </div>
+
+            <div>
+                <label for="email">Email:</label><br>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div>
+                <label for="assunto">Assunto:</label><br>
+                <select id="assunto" name="assunto">
+                    <option value="oportunidade">Oportunidade de Trabalho</option>
+                    <option value="duvida">Dúvida</option>
+                    </select>
+            </div>
+
+            <div>
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea name="mensagem" id="mensagem"></textarea>
+            </div>
+
+            <button type="submit">Enviar Mensagem</button>
+
+            </fieldset>
+            </form>
+        </section>
+
+        <hr>
+
+        <p>&copy; Meta. Desenvilvido durante o curso do SENAI</p>
+        <hr>
+        <footer>
+            <p><a href="mailto:riquelme.santos@edu.senai.br">riquelme.santos@edu.senai.br</a> | <a href="tel:+55 (11) 91306-0064">(11) 91306-0064</a></p>
+        </footer>
+    </main>
+</body>
+</html>
